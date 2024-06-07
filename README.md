@@ -1,2 +1,3 @@
-# Python Package Template
+# `quanttide-data-agents`
 
+QuantTide Data Agents

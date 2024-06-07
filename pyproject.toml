@@ -4,12 +4,15 @@ build-backend = "pdm.backend"
 
 [project]
 # name it as your package name
-name = "quanttide-template-of-python-project"
+name = "quanttide-data-agents"
 # semetric versions
 version = "0.1.0-alpha.1"
 # describe the package within one sentence
-description = "QuantTide Template of Python Project"
-authors = [{name = "QuantTide Inc.", email = "opensource@quanttide.com"}]
+description = "QuantTide Data Agents"
+authors = [
+    {name = "QuantTide Inc.", email = "opensource@quanttide.com"},
+    {name = "Guo Zhang", email = "zhangguo@quanttide.com"}
+]
 classifiers = [
     "Programming Language :: Python :: 3",
 ]
@@ -28,5 +31,5 @@ content-type = "text/markdown"
 
 [tool.pdm.build]
 includes = [
-    "python_package",
+    "quanttide_data_agents",
 ]
